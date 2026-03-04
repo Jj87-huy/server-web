@@ -1,0 +1,27 @@
+{
+  "name": "server-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "st": "node main.js",
+    "upload": "git pull --no-rebase && git add . && git add package.json && git diff --cached --quiet || git commit -m \"Update 1234567890\" && git push -u origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jj87-huy/server-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jj87-huy/server-web/issues"
+  },
+  "homepage": "https://github.com/Jj87-huy/server-web#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  }
+}
