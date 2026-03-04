@@ -150,9 +150,6 @@ Sau khi kết nối xác thực thành công, backend sẽ giữ kết nối Web
 
 ISC License
 
----
-
-Nếu bạn muốn mình chỉnh theo style khác (ví dụ có badge, UML sơ đồ hoặc hướng dẫn deploy lên cloud như Render/Heroku), mình có thể cập nhật thêm!
 
 [1]: https://github.com/Jj87-huy/server-web/blob/main/package.json "server-web/package.json at main · Jj87-huy/server-web · GitHub"
 [2]: https://raw.githubusercontent.com/Jj87-huy/server-web/main/routes/papi.js "raw.githubusercontent.com"
