@@ -20,7 +20,7 @@ app.use(express.json());
 require("./websocket");
 
 // ============================================
-// ROUTES
+// ROUTE
 // ============================================
 
 // API endpoint: http://localhost:80/api/request-papi
